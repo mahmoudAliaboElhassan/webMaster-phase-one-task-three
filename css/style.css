@@ -226,14 +226,16 @@ form input::placeholder {
   .home-title h2 {
     font-size: 1.7rem;
   }
-  .home .home-text {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
 }
 @media (max-width: 300px) {
   .home-title h2 {
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .home .home-text {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 }
