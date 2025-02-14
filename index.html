@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Header</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@300;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,500;1,700&family=Tajawal:wght@200;300;400;500;800;900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="home">
+      <div class="container">
+        <header
+          class="d-flex justify-content-between align-items-center p-3 fixed-top"
+        >
+          <a
+            href="#home"
+            class="logo text-decoration-none fw-bold fs-4 text-dark d-flex align-items-center justify-content-between"
+          >
+            <i class="fas fa-film"></i> Movies
+          </a>
+          <button
+            class="navbar-toggler d-md-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"
+              ><i
+                class="fa-solid fa-bars fs-4 pointer-event position-relative toggle-icon"
+              ></i
+            ></span>
+          </button>
+
+          <!-- Navbar Links -->
+          <div
+            class="bg-white w-100 position-absolute top-100 text-center start-0"
+          >
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav gap-4">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#movies">Movies</a>
+                </li>
+                <li class="nav- item">
+                  <a class="nav-link" href="#coming-soon">Coming Soon</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#newsletter">Newsletter</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="navbar nav gap-4 d-none d-md-flex">
+            <li class="nav-item">
+              <a class="nav-link home-active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#movies">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coming-soon">Coming Soon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#newsletter">Newsletter</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-danger sign-in">Sign In</a>
+        </header>
+        <div class="home-text position-absolute" style="top: 40%">
+          <div class="fw-medium text-dark text-uppercase">Marvel Universe</div>
+          <div class="home-title">
+            <h1 class="fw-bold">
+              Spider-Man <br />
+              Far From Home
+            </h1>
+          </div>
+          <a href="#" class="btn btn-danger sign-in">Book Now</a>
+        </div>
+      </div>
+    </div>
+    <section id="movies bg-black pt-5 pb-5">
+      <div
+        class="fw-medium fs-5 text-uppercase heading mb-4"
+        style="max-width: 1000px"
+      >
+        Opening this Week
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/m1.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Dunkerk</h5>
+                <p class="fs-sm">105min | Adventure</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/m2.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Dunkerk</h5>
+                <p class="fs-sm">105min | Adventure</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/m3.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Batman & Superman</h5>
+                <p class="fs-sm">100min | Thriller</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/m4.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">John Wick</h5>
+                <p class="fs-sm">120min | Adventure</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/m5.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Aquaman</h5>
+                <p class="fs-sm">130min | Action</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/m6.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Black Panther</h5>
+                <p class="fs-sm">90min | Thriller</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/m7.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Thor</h5>
+                <p class="fs-sm">130min | Action</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/m8.png"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Bumblebee</h5>
+                <p class="fs-sm">100min | Thriller</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/m9.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Mortal Engines</h5>
+                <p class="fs-sm">100min | Action</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/m10.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">
+                  UnderWorld Blood Wars
+                </h5>
+                <p class="fs-sm">100min | Action</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="coming-soon bg-black pt-5 pb-5">
+      <div
+        class="fw-medium fs-5 text-uppercase heading mb-4"
+        style="max-width: 1000px"
+      >
+        Coming Soon
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/coming1.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Joney English</h5>
+                <p class="fs-sm">80min | Comedy</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/coming2.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">WarCrafet</h5>
+                <p class="fs-sm">120min | Action</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/coming3.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Rampage</h5>
+                <p class="fs-sm">108min | Adventure</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/coming4.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Airon Lady</h5>
+                <p class="fs-sm">120min | Comedy</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/coming5.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Justice League</h5>
+                <p class="fs-sm">120min | Adventure</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/coming6.jpeg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Doctor Strange</h5>
+                <p class="fs-sm">120min | Adventure</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/coming7.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Captain Marvel</h5>
+                <p class="fs-sm">120min | Adventure</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/coming8.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Black Widow</h5>
+                <p class="fs-sm">90min | Action</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/coming9.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">Ant Man</h5>
+                <p class="fs-sm">110min | Adventure</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="img-container">
+              <img
+                src="./img/coming10.jpg"
+                class="card-img-top h"
+                style="height: 270px"
+                alt="venom"
+              />
+              <div class="card-body">
+                <h5 class="movie-title fs-6 fw-medium">
+                  Guardiance Of The Galaxy
+                </h5>
+                <p class="fs-sm">120min | Adventure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="footer d-flex justify-content-center align-items-center flex-column pt-5"
+      style="padding-bottom: 0"
+    >
+      <div class="text-center fs-2 fw-semibold">
+        Subscribe To Get <br />Newsletter
+      </div>
+      <div class="pb-5">
+        <form
+          class="d-flex align-items-center justify-content-center p-2 rounded-2"
+        >
+          <input
+            type="text"
+            class="border-0 d-none d-sm-block"
+            style="max-width: 300px; outline: 0"
+            type="email"
+            placeholder="Enter Email..."
+          />
+          <input type="submit" value="Subscribe" class="btn" />
+        </form>
+      </div>
+      <div class="container pb-5 pt-5">
+        <div
+          class="links-containre d-flex justify-content-between align-items-center flex-column flex-sm-row"
+        >
+          <div class="logo-link">
+            <a
+              href="#home"
+              class="logo text-decoration-none fw-bold fs-4 d-flex align-items-center justify-content-between"
+            >
+              <i class="fas fa-film fs-3" style="color: red"></i> Movies
+            </a>
+          </div>
+          <div
+            class="social-links d-flex justify-content-centr align-item-center"
+          >
+            <div class="link">
+              <a
+                class="d-flex justify-content-center align-items-center rounded-circle border border-4"
+                href="https://www.facebook.com"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="link">
+              <a
+                class="d-flex justify-content-center align-items-center rounded-circle border border-4"
+                href="https://www.instagram.com"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="link">
+              <a
+                class="d-flex justify-content-center align-items-center rounded-circle border border-4"
+                href="https://www.twitter.com"
+                target="_blank"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="link">
+              <a
+                class="d-flex justify-content-center align-items-center rounded-circle border border-4"
+                href="https://www.tiktok.com"
+                target="_blank"
+              >
+                <i class="fab fa-tiktok"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-text text-center fs-5">
+        &copy;
+        <span>Web Masters </span>All Right Reserved.
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
