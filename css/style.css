@@ -219,6 +219,9 @@ form input::placeholder {
 .links-containre {
   row-gap: 1rem;
 }
+.footer-text {
+  font-size: 1.1rem;
+}
 @media (max-width: 370px) {
   .home-title h2 {
     font-size: 1.7rem;
