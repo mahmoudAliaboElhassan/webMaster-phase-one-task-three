@@ -177,7 +177,7 @@ form input::placeholder {
   font-weight: 400;
 }
 .home-title h1 {
-  font-size: 4rem;
+  font-size: 2.4rem;
 }
 .btn {
   border: 0;
@@ -223,19 +223,19 @@ form input::placeholder {
   font-size: 1.1rem;
 }
 @media (max-width: 370px) {
-  .home-title h2 {
+  .home-title h1 {
     font-size: 1.7rem;
   }
 }
 @media (max-width: 300px) {
-  .home-title h2 {
+  .home-title h1 {
     font-size: 1.2rem;
   }
 }
 @media (max-width: 600px) {
   .home .home-text {
     left: 50%;
-    top: 50%;
+    top: 50% !important;
     transform: translate(-50%, -50%);
   }
 }
